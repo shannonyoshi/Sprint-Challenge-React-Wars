@@ -2,16 +2,9 @@ import React from 'react';
 import './StarWars.css';
 
 class Character extends React.Component {
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         starwarsChars:
-    //     }
-    // }
     render(){
         return(
         <div className='character-card'>
-        {console.log(this.props.character)}
         <h3>{this.props.character.name}</h3>
         <h4>Physical Characteristics</h4>
         <p>
