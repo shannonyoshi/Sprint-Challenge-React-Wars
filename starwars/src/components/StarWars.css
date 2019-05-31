@@ -1,0 +1,11 @@
+.character-card{
+    background-color:white;
+    width:15em;
+    margin: 30px;
+}
+
+.character-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
